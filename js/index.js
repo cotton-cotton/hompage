@@ -1,4 +1,5 @@
 const body = document.querySelector('body');
+const box = document.querySelector('.box-container');
 
 const clickAudio = new Audio("audio/모래 해변가 파도소리.mp3");
 
