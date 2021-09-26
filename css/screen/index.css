@@ -1,0 +1,66 @@
+/** @format */
+
+.background {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	background-color: black;
+}
+
+.background-link {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.background-letter {
+	display: flex;
+	position: absolute;
+	bottom: 500px;
+	border-radius: 25px;
+	width: 450px;
+	padding: 30px;
+	box-shadow: 10px 5px 5px rgb(131, 130, 130);
+	animation: welcome 2.5s ease-in-out infinite;
+}
+.background-link{
+	color: cornflowerblue;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 600;
+	letter-spacing: 2px;
+	opacity: 83%;
+}
+.welcome {
+	position: absolute;
+	bottom: 53px;
+	left: 30px;
+}
+.niboo {
+	position: absolute;
+	right: 30px;
+	bottom: 18px;
+}
+.background-letter:link {
+	color: cornflowerblue;
+}
+.background-letter:visited {
+	color: cornflowerblue;
+}
+.background-letter:hover {
+	color: tomato;
+	cursor: pointer;
+}
+.background-letter:active {
+	color: teal;
+}
+@keyframes welcome {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(20px);
+	}
+	to {
+		transform: translateY(0px);
+	}
+}

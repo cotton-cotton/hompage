@@ -1,0 +1,21 @@
+.contact {
+  width: 500px;
+  height: 550px;
+  font-size: 20px;
+  line-height: 40px;
+}
+.contact h1 {
+  font-size: 30px;
+  padding-bottom: 30px;
+  font-weight: 600;
+}
+.main-bar-contact {
+  position: relative;
+  width: 100vw;
+  height: 400px;
+  background-color:rgb(214, 238, 238);
+  box-shadow: 30px 10px 20px 50px rgb(214, 238, 238);
+}
+.github {
+ font-size: 18px;
+}

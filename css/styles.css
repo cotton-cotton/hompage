@@ -1,0 +1,17 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500&display=swap");
+@import "reset.css";
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+/* screen */
+@import "screen/index.css";
+@import "screen/main.css";
+@import "screen/about.css";
+@import "screen/contact.css";
+
+
+body {
+	font-family: "Roboto Mono", monospace, "Sunflower", sans-serif;
+}

@@ -1,0 +1,25 @@
+
+.about,
+.picture {
+  width: 500px;
+  height: 550px;
+  font-size: 20px;
+  line-height: 40px;
+}
+.picture img {
+  width: 500px;
+  height: 550px;
+  border-radius: 10px
+}
+.about h1 {
+  font-size: 20px;
+  padding-bottom: 30px;
+  font-weight: 600;
+}
+.main-bar-about {
+  position: relative;
+  width: 100vw;
+  height: 400px;
+  background-color:rgb(233, 227, 233);
+  box-shadow: 30px 10px 20px 50px rgb(233, 227, 233);
+}
