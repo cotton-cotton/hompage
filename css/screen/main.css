@@ -82,19 +82,24 @@
 	backdrop-filter: blur(25px);
 	border-radius: 10px;
 }
-.box-one h1{
-	font-size: 25px;
-}
-.box-one h2 {
-	font-size: 20px;
+h1{
+	font-size: 15px;
 }
 .box-one,
-.box-two {
-	line-height: 70px;
+.box-two h1{
+font-size: 20px;
+}
+.box-two i {
+	font-size: 15px;
 }
 .clock {
 	font-size: 20px;
 }
-
-
+.d-day-time {
+	font-size: 15px;
+}
+.box-container-bottom i {
+	font-size: 30px;
+	font-weight: 600;
+}
 

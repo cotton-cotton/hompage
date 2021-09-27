@@ -3,7 +3,7 @@
 }
 .status-bar {
 	position: absolute;
-	width: 100%;
+	width: 100vw;
 	height: 100px;
   background-color: transparent;
 	color: white;
@@ -17,6 +17,7 @@
 .status-bar-column {
 	z-index: 100;
 	margin-top: 30px;
+	margin-right: 30px;
 }
 @keyframes appearBtnAnimation {
 	from {

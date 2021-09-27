@@ -1,20 +1,35 @@
 
-.about,
-.picture {
+.about{
   width: 500px;
   height: 550px;
   font-size: 20px;
   line-height: 40px;
   margin-top: 450px;
 }
+.picture {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  width: 250px;
+	height: 350px;
+  margin: 450px 30px 100px  30px;
+	padding: 0 10px 0 10px;
+	border-radius: 10px;
+}
 .picture img {
-  width: 500px;
-  height: 550px;
+  width: 250px;
+	height: 350px;
   border-radius: 10px
 }
 .about h1 {
   font-size: 20px;
   padding-bottom: 30px;
+  font-weight: 600;
+  line-height: 20px;
+  font-weight: 100;
+}
+.about .intro {
   font-weight: 600;
 }
 .main-bar-about {
