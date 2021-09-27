@@ -1,6 +1,6 @@
 .header-bar img {
   width: 100vw;
-  height: 450px;
+  height: 300px;
 	background-attachment: fixed;
 }
 .main-bar {
@@ -27,15 +27,18 @@
 	justify-content:center;
 	align-items: center;
 	line-height: 40px;
+	z-index: 10;
 }
 .box-container-bottom {
   width: 100vw;
+	height: 400px;
   position: absolute;
   display: flex;
 	justify-content:center;
 	align-items: center;
-  margin-top: 30px;
 	line-height: 40px;
+	margin-top: 130px;
+	z-index: 10;
 }
 .box-container h1 {
 	font-size: 20px;
@@ -51,6 +54,7 @@
   width: 300px;
 	height: 300px;
   margin: 100px 30px 100px  30px;
+	padding: 0 10px 0 10px;
 	background: rgba(225, 225, 225, 0.1);
 	box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
 	border: 1px solid rgba(255, 255, 255, 0.5);
@@ -69,6 +73,7 @@
   width: 300px;
 	height: 300px;
   margin: 100px 30px 100px  30px;
+	padding: 0 10px 0 10px;
 	background: rgba(225, 225, 225, 0.1);
 	box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
 	border: 1px solid rgba(255, 255, 255, 0.5);
