@@ -32,13 +32,15 @@
 }
 .welcome {
 	position: absolute;
-	bottom: 53px;
-	left: 30px;
+	bottom: 60px;
+	left: 70px;
+	font-size: 25px;
 }
 .niboo {
 	position: absolute;
-	right: 30px;
-	bottom: 18px;
+	right: 70px;
+	bottom: 20px;
+	font-size: 25px;
 }
 .background-letter:link {
 	color: cornflowerblue;
