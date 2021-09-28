@@ -2,4 +2,12 @@
   width: 500px;
   height: 700px;
   margin-top: 500px;
+  line-height: 70px;
+}
+.work h1 {
+  font-size: 30px;
+}
+.work h2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
